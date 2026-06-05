@@ -1,0 +1,87 @@
+<svg width="460" height="188" viewBox="0 0 460 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  svg {
+    color-scheme: light dark;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  #background {
+    fill: #ffffff;
+    stroke: #d0d7de;
+  }
+  .title {
+    fill: #0969da;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .label {
+    fill: #57606a;
+    font-size: 13px;
+  }
+  .value {
+    fill: #24292f;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .updated {
+    fill: #6e7781;
+    font-size: 11px;
+  }
+  .dot {
+    fill: #2da44e;
+  }
+  .row {
+    opacity: 0;
+    animation: fade-in 420ms ease-out forwards;
+  }
+  @keyframes fade-in {
+    to {
+      opacity: 1;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    #background {
+      fill: #0d1117;
+      stroke: #30363d;
+    }
+    .title {
+      fill: #58a6ff;
+    }
+    .label {
+      fill: #8b949e;
+    }
+    .value {
+      fill: #c9d1d9;
+    }
+    .updated {
+      fill: #8b949e;
+    }
+    .dot {
+      fill: #3fb950;
+    }
+  }
+</style>
+<rect id="background" x="0.5" y="0.5" width="459" height="187" rx="6" />
+<text class="title" x="24" y="32">Shirish Pothi&#x27;s GitHub Statistics</text>
+
+  <g class="row" style="animation-delay: 0ms" transform="translate(24 66)">
+    <circle class="dot" cx="4" cy="-4" r="4" />
+    <text class="label" x="20" y="0">Stars</text>
+    <text class="value" x="396" y="0" text-anchor="end">2</text>
+  </g>
+  <g class="row" style="animation-delay: 120ms" transform="translate(24 94)">
+    <circle class="dot" cx="4" cy="-4" r="4" />
+    <text class="label" x="20" y="0">Forks</text>
+    <text class="value" x="396" y="0" text-anchor="end">1</text>
+  </g>
+  <g class="row" style="animation-delay: 240ms" transform="translate(24 122)">
+    <circle class="dot" cx="4" cy="-4" r="4" />
+    <text class="label" x="20" y="0">All-time contributions</text>
+    <text class="value" x="396" y="0" text-anchor="end">35,794</text>
+  </g>
+  <g class="row" style="animation-delay: 360ms" transform="translate(24 150)">
+    <circle class="dot" cx="4" cy="-4" r="4" />
+    <text class="label" x="20" y="0">Active public repos</text>
+    <text class="value" x="396" y="0" text-anchor="end">45</text>
+  </g>
+<text class="updated" x="24" y="166">Updated 2026-06-05 16:34 UTC</text>
+</svg>
